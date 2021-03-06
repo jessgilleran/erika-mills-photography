@@ -1,24 +1,46 @@
-
-.img-fluid {
-    max-width: 60%;
+html, body {
+    height: 100vh;
 }
 
-img {
-    width: 100%;
-    margin-right: 30px;
+nav {
+    position: fixed;
+    z-index: 20;
+    background-color: rgba(139, 151, 163, 0);
 }
 
-#img-bg {
-    min-height: 100vh;
-    background-image: url('/Images/landing-page-image.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.navbar {
+    align-items: start;
 }
 
-.nothing {
-    display: flex;
-    align-items: flex-start;
+.main-image {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+
+
+
+
+
+
+.bg {
     height: 100%;
+    background-image: url('Images/landing-page-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
