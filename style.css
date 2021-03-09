@@ -18,6 +18,7 @@
     li {
         padding-left: 10px;
         text-align: center;
+        background-color: #dae2e8;
     }
 
     .logo {
@@ -30,9 +31,13 @@
         margin-right: 10px;
     }
 
-    .first-item {
+    /* .first-item {
         border-top: 1px solid gray;
-    }
+    } */
+
+    /* .last-item {
+        border-bottom: 1px solid gray;
+    } */
 }
 
 @media (min-width: 768px) {
