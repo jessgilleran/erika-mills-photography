@@ -2,15 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar {
+.index-nav {
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
-
-/* .navbar ul li{
-    border-bottom: 2px solid gray;
-} */
 
 @media (max-width: 767.98px) {
     .navbar {
@@ -22,7 +18,7 @@ body {
     li {
         padding-left: 10px;
         text-align: center;
-        background-color: #dae2e8;
+        background-color: #d5dae0;
     }
 
     .logo {
@@ -34,6 +30,10 @@ body {
     .navbar-toggler {
         margin-right: 10px;
     }
+
+    .gear-image {
+        margin-top: 10px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -42,7 +42,12 @@ body {
     }
 
     .logo {
-        width: 200px;
+        width: 150px;
+    }
+
+    li a:hover {
+        background-color: #d5dae0;
+        border-radius: 10px;
     }
 }
 
@@ -61,6 +66,21 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-weight: 100;
+    font-size: 25px;
+    color:  rgba(0,0,0,.55);
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.gear-image {
+    border: 1px solid #d5dae0;
+    border-radius: 10px;
+}
 
 
 
