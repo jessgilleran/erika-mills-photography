@@ -6,6 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-size: 15px;
 }
 
 @media (max-width: 767.98px) {
@@ -73,15 +74,55 @@ h1 {
     margin-bottom: 20px;
 }
 
-p {
-    text-align: justify;
-}
+
 
 .gear-image {
     border: 1px solid #d5dae0;
     border-radius: 10px;
 }
 
+.overlay-wrapper {
+    position: relative;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #83868a;
+    border-radius: 10px;
+}
+
+.overlay-wrapper:hover .img-overlay {
+    opacity: 0.9;
+}
+
+.overlay-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 16px;
+}
 
 
 
