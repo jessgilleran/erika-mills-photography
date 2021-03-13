@@ -9,13 +9,6 @@ body {
     }
 }
 
-@media (min-width: 768px) {
-    .home-image-grid {
-        
-        
-    }
-}
-
 .index-nav {
     align-items: center;
     justify-content: center;
@@ -45,10 +38,6 @@ body {
 
     .navbar-toggler {
         margin-right: 10px;
-    }
-
-    .gear-image {
-        margin-top: 10px;
     }
 }
 
@@ -97,7 +86,6 @@ h1 {
 
 .overlay-wrapper {
     position: relative;
-    background-color: blue;
 }
 
 .img-overlay {
