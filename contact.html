@@ -60,22 +60,22 @@
 
 
 
-                <form style='background-color: #ddd;'>
+                <form action='contactform.php' method='post' style='background-color: #ddd;'>
                     <div class='row form-row'>
                         <div class='col-12 col-md-6 p-2'>
-                            <input class='form-input' type='text' id='firstName' placeholder='First name'>
+                            <input class='form-input' type='text' name='firstName' placeholder='First name'>
                         </div>
                         <div class='col-12 col-md-6 p-2'>
-                            <input class='form-input' type='text' id='lastName' placeholder='Last name'>
+                            <input class='form-input' type='text' name='lastName' placeholder='Last name'>
                         </div>
                         <div class='col-12 col-md-6 p-2'>
-                            <input class='form-input' type='email' id='clientEmail' placeholder='Email address'>
+                            <input class='form-input' type='email' name='clientEmail' placeholder='Email address'>
                         </div>
                         <div class='col-12 col-md-6 p-2'>
-                            <input class='form-input' type='text' id='clientPhone' placeholder='Phone number'>
+                            <input class='form-input' type='text' name='clientPhone' placeholder='Phone number'>
                         </div>
                         <div class='col-12 col-md-6 p-2'>
-                            <select class='form-input' id='sessionType'>
+                            <select class='form-input' name='sessionType'>
                                 <option class='form-input' value='sessionType' selected>Select session type</option>
                                 <option value='portraits'>Family portraits</option>
                                 <option value='couples'>Couples</option>
@@ -89,10 +89,10 @@
                             </select>
                         </div>
                         <div class='col-12 px-2 pt-2'>
-                            <textarea class='form-input' id='additional' rows='5' placeholder='Special requests or further information'></textarea>
+                            <textarea class='form-input' name='message' rows='5' placeholder='Special requests or further information'></textarea>
                         </div>
                     </div>
-                    <input class='submit-button mx-3' type='submit' value='Submit'>
+                    <input class='submit-button mx-3' name='submit' type='submit' value='Submit'>
                 </form>
 
                 <p>Just for filler</p>
